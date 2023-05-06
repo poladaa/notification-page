@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: hsl(210, 60%, 98%);
+  font-size: 1.4rem;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 860px;
+  margin: 8rem auto;
+}
+
+.wrapper {
+  padding: 4rem 3rem 0;
+  margin: 3rem;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 2.6rem -1.3rem rgba(0, 0, 0, 0.26);
+  background-color: #fff;
+}
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+p.title-text {
+  color: hsl(224, 21%, 14%);
+  font-size: 2.6rem;
+  font-weight: 800;
+}
+
+p.num {
+  color: #fff;
+  background-color: hsl(219, 85%, 26%);
+  border-radius: 45%;
+  font-weight: 800;
+  padding: 3px 1.2rem;
+}
+
+a.read {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: hsl(219, 14%, 63%);
+}
+
+.single-box {
+  margin: 1.2rem 0;
+  padding: 1.7rem;
+  display: flex;
+  align-items: center;
+}
+
+.single-box.unseen {
+  border-radius: 1rem;
+  background-color: hsl(210, 60%, 98%);
+}
+
+.avatar img {
+  width: 5rem;
+  margin-right: 1.5rem;
+}
+
+a.name {
+  font-weight: 800;
+  color: hsl(224, 21%, 14%);
+}
+
+a.post {
+  font-weight: 800;
+  color: hsl(219, 12%, 42%);
+}
+
+a.group {
+  color: hsl(219, 85%, 26%);
+  font-weight: 800;
+}
+
+a.read:hover,
+a.name:hover,
+a.post:hover,
+a.group:hover {
+  transition: all 0.5s ease-in;
+  color: hsl(219, 85%, 26%);
+}
+
+span.dot {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: hsl(1, 90%, 64%);
+  margin-left: 0.7rem;
+}
+
+.message {
+  font-size: 1.8rem;
+  margin-top: 1.2rem;
+  padding: 1.2rem;
+  border-radius: 7px;
+  border: 2px solid hsl(211, 68%, 94%);
+}
+
+.with-mssg {
+  align-items: flex-start;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.single-box.comment {
+  justify-content: space-between;
+}
+
+.img-box img {
+  border-radius: 50%;
+  width: 5rem;
+}
